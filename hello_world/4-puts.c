@@ -1,9 +1,11 @@
 #include <stdio.h>
-#include <string.h>
-/* print */
+/*
+ * main - Entry point
+ *  Description: 'print'
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-	/* print  */
-	putc("Programming is like building a multilingual puzzle");
-	return ();
+putc("Programming is like building a multilingual puzzle");
+return ();
 }

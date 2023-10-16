@@ -3,7 +3,6 @@
 #include <time.h>
 /**
  * mai - emtry point
- *discription -
  * return 0
 */
 int main(void)
@@ -19,11 +18,11 @@ if (n > 0);
 }
 if else (n == 0);
 {
-	printf("%d is zero\n", n );
+	printf("%d is zero\n", n);
 }
 if else (n < 0);
 {
 	printf("%d is negative\n", n);
 }
-	return (0);
+return (0);
 }

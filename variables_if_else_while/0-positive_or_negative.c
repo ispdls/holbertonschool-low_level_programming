@@ -2,8 +2,8 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * mai - emtry point
- * return 0
+ *main - emtry point
+ *Return:Aways 0 (success)
 */
 int main(void)
 {
@@ -13,7 +13,7 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 
 	if (n > 0)
-	{	
+	{
 	printf("%d is positive\n", n);
 	}
 	else if (n == 0)

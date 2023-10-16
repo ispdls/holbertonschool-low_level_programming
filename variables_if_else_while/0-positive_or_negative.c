@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <time.h>
 /* main - n
-  return 0
+ * return 0
 */
 
 int main(void)
@@ -10,21 +10,17 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-
-	if (n > 0);
+    if (n > 0);
 	{
 		printf("is positive";)
 	}
-	
 	else if (n == 0) ;
 	{
 	printf("is zero");
 	}		
-	
 	else (n < 0);
 	{
 	printf("is negative");		
-
-	}
+    }
 return (0);
 }

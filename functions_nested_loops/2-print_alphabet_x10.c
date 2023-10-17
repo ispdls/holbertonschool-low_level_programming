@@ -18,6 +18,6 @@ _putchar(c);
 }
 _putchar('\n');
 }
-con ++;
+con++;
 }
 

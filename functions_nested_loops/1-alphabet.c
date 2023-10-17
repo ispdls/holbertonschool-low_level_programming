@@ -1,7 +1,10 @@
 #include <stdio.h>
 /**
- * main - print _putchar
- * Return: away (0)
+ * main - entry point
+ *
+ * print_alphabet - print_alphabet
+ *
+ * Return: alway 0
  */
 void print_alphabet(void)
 {
@@ -9,13 +12,13 @@ char ch;
 for (ch = 'a' ; ch <= 'z' ; ch++)
 {
 putchar(ch);
-return;
 }
+return;
 }
 
 int main(void)
 {
-print_alphabert();
+print_alphabet();
 return (0);
 }
 

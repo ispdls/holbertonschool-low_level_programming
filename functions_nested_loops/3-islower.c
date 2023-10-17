@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _islower - check for lowercase lettle.
- *
+ *@c: the return value
  * Return: 1.
  */
 int _islower(int c)

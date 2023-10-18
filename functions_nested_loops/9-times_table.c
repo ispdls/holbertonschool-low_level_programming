@@ -17,6 +17,8 @@ n3 = n1 * n2;
 if (n3 < 10)
 {
 _putchar(n3 + '0');
+_putchar(44);
+_putchar(' ');
 }
 if (n3 > 9)
 {
@@ -25,8 +27,6 @@ _putchar(n3 % 10 + '0');
 _putchar(44);
 _putchar(' ');
 }
-_putchar(44);
-_putchar(' ');
 }
 _putchar('\n');
 }

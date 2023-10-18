@@ -6,13 +6,17 @@
  */
 int print_sign(int n)
 {
-if (n >= 48 && n <= 57)
-{
 if (n > 1)
 {
-return ("+", 1);
-}
 return (1);
+}
+else if (n == 0)
+{
+return(0);
+}
+else (n < 0)
+{
+return(-1)
 }
 return (0);
 }

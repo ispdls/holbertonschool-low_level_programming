@@ -10,11 +10,5 @@ int lastnum;
 
 lastnum = n % 10;
 return (lastnum);
-if (lastnum < 0)
-{
-lastnum = lastnum * -1;
-}
-_putchar('0' + lastnum);
-return (lastnum);
 }
 

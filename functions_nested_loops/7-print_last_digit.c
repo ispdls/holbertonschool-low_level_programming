@@ -14,7 +14,7 @@ if (lastnum < 0)
 {
 lastnum = lastnum * -1;
 }
-_putchar(lastnum + '0');
+_putchar('0' + lastnum);
 return (lastnum);
 }
 

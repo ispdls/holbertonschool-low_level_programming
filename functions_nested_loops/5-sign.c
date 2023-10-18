@@ -10,7 +10,7 @@ if (n >= 48 && n <= 57)
 {
 if (n > 1)
 {
-return ('+');
+return ('+', 1);
 }
 return (1);
 }

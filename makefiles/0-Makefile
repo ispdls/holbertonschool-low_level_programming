@@ -1,1 +1,2 @@
-gcc -o school school
+all  main c school.c
+gcc -o main school

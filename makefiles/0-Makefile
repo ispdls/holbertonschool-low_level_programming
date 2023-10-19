@@ -1,5 +1,2 @@
-cc = gcc
-SRC = mai.c school.c
-
-all: ${SRC}
-	${cc} ${SRC} -o school
+all: mai.c school.c
+	gcc main.c school.c -o school

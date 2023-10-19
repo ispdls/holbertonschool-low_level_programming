@@ -15,7 +15,6 @@ for (n2 = 0 ; n2 <= 9 ; n2++)
 {
 n3 = n1 * n2;
 if (n3 < 10)
-_putchar(' ');
 {
 _putchar(n3 + '0');
 if (n2 < 9)

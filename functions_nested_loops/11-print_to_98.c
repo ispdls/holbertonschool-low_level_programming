@@ -12,7 +12,6 @@ int c;
 if (n == 98)
 {
 printf("%d", n);
-printf("\n");
 }
 if (n < 98)
 {

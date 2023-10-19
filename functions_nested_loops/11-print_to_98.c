@@ -22,6 +22,7 @@ printf("%d", c);
 if (c < 98)
 {
 printf(", ");
+printf("\n");
 }
 }
 }
@@ -33,6 +34,7 @@ printf("%d", c);
 if (c > 98)
 {
 printf(", ");
+printf("\n");
 }
 }
 printf("\n");

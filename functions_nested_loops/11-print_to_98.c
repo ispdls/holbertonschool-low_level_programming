@@ -17,7 +17,7 @@ if (n < 98)
 for (c = n ; c <= 98 ; c++)
 {
 printf("%d", c);
-if (c < 89)
+if (c < 98)
 {
 printf(", ");
 }

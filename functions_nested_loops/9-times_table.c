@@ -18,7 +18,7 @@ if (n3 <= 9)
 {
 if (n2 < 0)
 {
-_putchar('0')
+_putchar('0');
 }	
 _putchar(44);
 _putchar(' ');

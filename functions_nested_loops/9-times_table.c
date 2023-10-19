@@ -16,6 +16,10 @@ for (n2 = 0 ; n2 <= 9 ; n2++)
 n3 = n1 * n2;
 if (n3 <= 9)
 {
+if (n2 < 0)
+{
+_putchar('0')
+}	
 _putchar(44);
 _putchar(' ');
 _putchar(' ');

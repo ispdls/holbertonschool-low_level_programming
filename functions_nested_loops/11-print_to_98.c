@@ -25,7 +25,6 @@ printf(", ");
 }
 }
 }
-printf("\n");
 if (n > 98)
 {
 for (c = n ; c >= 98 ; c--)

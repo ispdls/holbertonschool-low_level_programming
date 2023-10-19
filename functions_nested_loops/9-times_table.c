@@ -19,6 +19,7 @@ if (n3 < 10)
 _putchar(n3 + '0');
 _putchar(44);
 _putchar(' ');
+_putchar(' ');
 }
 if (n3 > 9)
 {

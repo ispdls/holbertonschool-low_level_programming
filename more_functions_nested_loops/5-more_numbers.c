@@ -8,7 +8,7 @@ void more_numbers(void)
 	int n1 = 0;
 	int n2;
 
-	while (n1 <= 10)
+	while (n1 <= 9)
 	{
 		for (n2 = 0 ; n2 < 15 ; n2++)
 		{
@@ -16,7 +16,7 @@ void more_numbers(void)
 			{
 				_putchar(n2 / 10 + '0');
 			}
-			_putchar(n2 % 10 + '0');	
+		_putchar(n2 % 10 + '0');	
 		}
 		n1++;
 		_putchar('\n');

@@ -15,17 +15,15 @@ void more_numbers(void)
 			if (n2 < 10)
 			{
 				_putchar(n2 + '0');
-
-				else
-				{
-					_putchar(n2 / 10 + '0');
-					_putchar(n2 % 10 + '0');
-				}
-
+			}
+			else
+			{
+				_putchar(n2 / 10 + '0');
+				_putchar(n2 % 10 + '0');
 			}
 
+			_putchar('\n');
+			n1++;
 		}
-		_putchar('\n');
-		n1++;
 	}
 }

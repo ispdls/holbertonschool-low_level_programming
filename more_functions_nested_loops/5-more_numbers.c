@@ -12,18 +12,12 @@ void more_numbers(void)
 	{
 		for (n2 = 0 ; n2 < 15 ; n2++)
 		{
-			if (n2 < 10)
+			if (n2 >= 10)
 			{
-				_putchar(n2 + '0');
+				_putchar(n / 10 + '0');
 			}
-			else
-			{
-				_putchar(n2 / 10 + '0');
-				_putchar(n2 % 10 + '0');
-			}
-
-			_putchar('\n');
-			n1++;
+			_putchar(n2 % 10 + '0');	
 		}
+		n1++;
 	}
 }

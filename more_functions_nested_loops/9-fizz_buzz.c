@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include "main.h"
 /**
-*main - print 1 to 100.
-*Return: alway
-*/
+ *main - print 1 to 100.
+ *Return: alway
+ */
 int main(void)
 {
 	int con;
@@ -36,4 +36,5 @@ int main(void)
 		}
 		printf("\n");
 	}
+	return(0);
 }

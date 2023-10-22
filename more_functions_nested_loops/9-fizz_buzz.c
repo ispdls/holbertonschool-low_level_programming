@@ -8,13 +8,10 @@ int main(void)
 {
 	int con;
 
-	for (con = 0 ; con <= 100 ; con++)
+	for (con = 1 ; con <= 100 ; con++)
 	{
-		if (con == 0)
-		{
-			printf("%d", con);
-		}
-		else if (con % 3 == 0 && con % 5 == 0)
+
+		if (con % 3 == 0 && con % 5 == 0)
 		{
 			printf("FizzBuzz");
 			printf(" ");

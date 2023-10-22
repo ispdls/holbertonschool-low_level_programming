@@ -14,21 +14,21 @@ int main(void)
 		if (con % 3 == 0 && con % 5 == 0)
 		{
 			printf("FizzBuzz");
-			printf(" ");
 		}
 		else if (con % 3 == 0)
 		{
 			printf("Fizz");
-			printf(" ");
 		}
 		else if (con % 5 == 0)
 		{
 			printf("Buzz");
-			printf(" ");
 		}
 		else
 		{
 			printf("%d", con);
+		}
+		if (con < 100)
+		{
 			printf(" ");
 		}
 	}

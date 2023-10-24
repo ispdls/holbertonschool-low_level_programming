@@ -21,5 +21,7 @@ void rev_string(char *s)
 
 		s[firstl] = s[lastl];
 		s[lastl] = temp;
+		firstl++;
+		lastl--;
 	}
 }

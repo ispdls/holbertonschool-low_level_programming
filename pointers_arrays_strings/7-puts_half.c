@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *puts_half - prints every other character of a string, starting with the first
+ *puts_half - prints every other character of a string,starting with the first
  *@str: return value
  *
  */

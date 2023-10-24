@@ -1,8 +1,7 @@
 #include "main.h"
 /**
- *puts_half - prints every other character of a string,starting with the first
+ *puts_half - prints every other character of a string
  *@str: return value
- *
  */
 void puts_half(char *str)
 {

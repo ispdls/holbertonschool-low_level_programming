@@ -7,6 +7,7 @@
 void puts2(char *str)
 {
 	int len = 0, i = 0;
+
 	while(str[len])
 		len++;
 
@@ -14,8 +15,8 @@ void puts2(char *str)
 	{
 		if (str[i] == '\0')
 			continue;
-		_putchar(str[len]);
-		len += 2;
+		_putchar(str[i]);
+		i += 2;
 	}
 	_putchar('\n');
 }

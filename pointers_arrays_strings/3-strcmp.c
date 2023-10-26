@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  *_strcmp - compares two string
- *@si: value to compare
+ *@s1: value to compare
  *@s2: value to compare
  *Return: the value compare of s1 and s2
  */

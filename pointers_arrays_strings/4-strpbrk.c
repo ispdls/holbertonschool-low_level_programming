@@ -2,7 +2,7 @@
 #include <stddef.h>
 /**
  *_strpbrk - searchs a string for any of a set of bytes
- * @s: the string 
+ * @s: the string
  * @accept: the bytes
  * Return: NULL
  */

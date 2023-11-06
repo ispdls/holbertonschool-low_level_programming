@@ -18,12 +18,12 @@ int main(int argc, char *argv[])
 			return (1);
 		}
 		sum = atoi(argv[i]);
-		if  (sum >= 1)
+		if  (argc > 1)
 		{
 			sum1 = sum;
 			total = total + sum1;
 		}
-		else if (sum <= 0)
+		else if (argc < 1)
 		{
 			printf("0\n");
 			return (0);

@@ -1,10 +1,10 @@
 #include "hash_tables.h"
-#include <stdio.h>
 #include <stdlib.h>
+#include <stdio.h>
 /**
- * hash_table_delete - delete the whole hash table
- * @ht: the hash table
- */
+  * hash_table_delete - delete the whole hash table
+  * @ht: the hash table
+  */
 void hash_table_delete(hash_table_t *ht)
 {
 	unsigned long int i;
